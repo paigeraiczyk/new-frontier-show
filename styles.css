@@ -6,35 +6,35 @@
 /* --- Fonts --- */
 @font-face {
   font-family: 'Barlow';
-  src: url('Barlow-Light.ttf') format('truetype');
+  src: url('assets/fonts/Barlow-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('Barlow-Regular.ttf') format('truetype');
+  src: url('assets/fonts/Barlow-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('Barlow-Medium.ttf') format('truetype');
+  src: url('assets/fonts/Barlow-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('Barlow-SemiBold.ttf') format('truetype');
+  src: url('assets/fonts/Barlow-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Barlow';
-  src: url('Barlow-Bold.ttf') format('truetype');
+  src: url('assets/fonts/Barlow-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
