@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The New Frontier Show | Appalachian Stories, Culture & Community</title>
+  <meta name="description" content="The New Frontier Show is a podcast celebrating Appalachian culture, storytelling, and community. Born in Kentucky, rooted in the mountains.">
+  <meta name="keywords" content="Appalachian podcast, Kentucky, New Frontier, storytelling, Appalachia culture, outdoor lifestyle">
+  <meta name="author" content="New Frontier Brand">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The New Frontier Show | Appalachian Stories, Culture & Community">
+  <meta property="og:description" content="A podcast celebrating Appalachian culture, storytelling, and community. Born in Kentucky, rooted in the mountains.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thenewfrontiershow.com">
+  <meta property="og:image" content="assets/images/hero-banner.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The New Frontier Show">
+  <meta name="twitter:description" content="Appalachian stories, culture & community. Born in Kentucky.">
+
+  <link rel="canonical" href="https://thenewfrontiershow.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <img src="assets/images/logo.png" alt="New Frontier" width="180">
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#episodes">Episodes</a></li>
+        <li><a href="#clips">Clips</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#sponsor">Sponsor</a></li>
+        <li><a href="#listen" class="btn btn--sm">Listen Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="assets/images/lifestyle-2.jpg" alt="Appalachian mountain landscape" class="hero__img">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__tag">A New Frontier Podcast</p>
+      <h1 class="hero__title">Stories From<br>the Mountains</h1>
+      <p class="hero__sub">Real stories. Real people. Rooted in Appalachia.</p>
+      <div class="hero__actions">
+        <a href="#listen" class="btn btn--primary">Listen Now</a>
+        <a href="#episodes" class="btn btn--outline">Browse Episodes</a>
+      </div>
+      <div class="hero__platforms">
+        <span>Available on</span>
+        <div class="hero__platform-icons">
+          <a href="#" aria-label="Apple Podcasts">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+          </a>
+          <a href="#" aria-label="Spotify">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 14.36c-.2.3-.56.4-.86.2-2.36-1.44-5.32-1.76-8.82-.96-.34.08-.66-.14-.74-.46-.08-.34.14-.66.46-.74 3.82-.88 7.1-.5 9.74 1.1.3.18.4.56.22.86zm1.22-2.72c-.24.38-.74.5-1.1.24-2.7-1.66-6.82-2.14-10.02-1.16-.4.12-.82-.1-.94-.5-.12-.4.1-.82.5-.94 3.64-1.12 8.18-.58 11.3 1.32.36.22.48.72.26 1.04zm.1-2.82c-3.24-1.92-8.56-2.1-11.64-1.16-.5.14-1.02-.14-1.16-.64-.14-.5.14-1.02.64-1.16 3.54-1.08 9.42-.86 13.14 1.34.46.28.6.88.34 1.34-.28.44-.88.6-1.32.28z"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zM9 16V8l8 4-8 4z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <a href="#episodes" aria-label="Scroll down">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- Latest Episodes -->
+  <section class="episodes" id="episodes">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Latest Episodes</p>
+        <h2 class="section-title">Tune In</h2>
+        <p class="section-desc">New episodes every week. Conversations with the people, places, and stories that define Appalachia.</p>
+      </div>
+      <div class="episodes__grid">
+
+        <article class="episode-card">
+          <div class="episode-card__img">
+            <img src="assets/images/lifestyle-1.jpg" alt="Episode thumbnail">
+            <span class="episode-card__number">EP 12</span>
+            <button class="episode-card__play" aria-label="Play episode">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="episode-card__body">
+            <time class="episode-card__date">Mar 28, 2026</time>
+            <h3 class="episode-card__title">Roots Run Deep: Kentucky Holler Stories</h3>
+            <p class="episode-card__desc">Exploring the deep-rooted traditions of Kentucky's hollers and the families who've called them home for generations.</p>
+            <div class="episode-card__meta">
+              <span>52 min</span>
+              <a href="#" class="episode-card__link">Listen &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card">
+          <div class="episode-card__img">
+            <img src="assets/images/warehouse.jpg" alt="Episode thumbnail">
+            <span class="episode-card__number">EP 11</span>
+            <button class="episode-card__play" aria-label="Play episode">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="episode-card__body">
+            <time class="episode-card__date">Mar 21, 2026</time>
+            <h3 class="episode-card__title">Building From the Ground Up</h3>
+            <p class="episode-card__desc">The New Frontier warehouse tour and a conversation about building a brand rooted in community.</p>
+            <div class="episode-card__meta">
+              <span>45 min</span>
+              <a href="#" class="episode-card__link">Listen &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode-card">
+          <div class="episode-card__img">
+            <img src="assets/images/hat-nature.jpg" alt="Episode thumbnail">
+            <span class="episode-card__number">EP 10</span>
+            <button class="episode-card__play" aria-label="Play episode">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <div class="episode-card__body">
+            <time class="episode-card__date">Mar 14, 2026</time>
+            <h3 class="episode-card__title">Trail Tales: Red River Gorge</h3>
+            <p class="episode-card__desc">Hiking through the Red River Gorge with local guides who share the hidden stories behind the stone arches.</p>
+            <div class="episode-card__meta">
+              <span>38 min</span>
+              <a href="#" class="episode-card__link">Listen &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <div class="episodes__cta">
+        <a href="#" class="btn btn--dark">View All Episodes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Clips / Soundbites -->
+  <section class="clips" id="clips">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Clips & Soundbites</p>
+        <h2 class="section-title">Best Moments</h2>
+        <p class="section-desc">Short-form highlights from our favorite conversations. Watch, share, and discover.</p>
+      </div>
+      <div class="clips__grid">
+
+        <div class="clip-card clip-card--featured">
+          <div class="clip-card__video">
+            <img src="assets/images/lifestyle-1.jpg" alt="Video clip thumbnail">
+            <div class="clip-card__play-overlay">
+              <button class="clip-card__play-btn" aria-label="Play clip">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+            </div>
+            <span class="clip-card__duration">2:34</span>
+          </div>
+          <h3 class="clip-card__title">"This land made us who we are"</h3>
+          <p class="clip-card__ep">From EP 12 &mdash; Roots Run Deep</p>
+        </div>
+
+        <div class="clip-card">
+          <div class="clip-card__video">
+            <img src="assets/images/product-hat.jpg" alt="Video clip thumbnail">
+            <div class="clip-card__play-overlay">
+              <button class="clip-card__play-btn" aria-label="Play clip">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+            </div>
+            <span class="clip-card__duration">1:47</span>
+          </div>
+          <h3 class="clip-card__title">Why Appalachian pride matters</h3>
+          <p class="clip-card__ep">From EP 11 &mdash; Building From the Ground Up</p>
+        </div>
+
+        <div class="clip-card">
+          <div class="clip-card__video">
+            <img src="assets/images/warehouse.jpg" alt="Video clip thumbnail">
+            <div class="clip-card__play-overlay">
+              <button class="clip-card__play-btn" aria-label="Play clip">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+            </div>
+            <span class="clip-card__duration">3:12</span>
+          </div>
+          <h3 class="clip-card__title">Inside the New Frontier warehouse</h3>
+          <p class="clip-card__ep">From EP 11 &mdash; Building From the Ground Up</p>
+        </div>
+
+        <div class="clip-card">
+          <div class="clip-card__video">
+            <img src="assets/images/hat-nature.jpg" alt="Video clip thumbnail">
+            <div class="clip-card__play-overlay">
+              <button class="clip-card__play-btn" aria-label="Play clip">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </button>
+            </div>
+            <span class="clip-card__duration">1:58</span>
+          </div>
+          <h3 class="clip-card__title">The story behind the Appalachia hat</h3>
+          <p class="clip-card__ep">From EP 10 &mdash; Trail Tales</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__image">
+          <img src="assets/images/lifestyle-2.jpg" alt="Appalachian landscape overlook">
+        </div>
+        <div class="about__content">
+          <p class="section-tag">About the Show</p>
+          <h2 class="section-title">Appalachia's Brand.<br>Born in Kentucky.</h2>
+          <p>The New Frontier Show is more than a podcast &mdash; it's a platform for the voices, stories, and spirit of Appalachia. From the hollers of eastern Kentucky to the ridgelines of the Blue Ridge, we bring you conversations with the people who live it, build it, and carry it forward.</p>
+          <p>Whether it's trail culture, small-town entrepreneurship, or the music that echoes through the mountains, every episode is a window into a way of life that's as alive today as it's ever been.</p>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__number">12</span>
+              <span class="stat__label">Episodes</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">25K+</span>
+              <span class="stat__label">Listeners</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">50+</span>
+              <span class="stat__label">Guests</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listen / Subscribe CTA -->
+  <section class="listen" id="listen">
+    <div class="listen__bg">
+      <img src="assets/images/banner.jpg" alt="Mountain sunset banner" class="listen__bg-img">
+      <div class="listen__overlay"></div>
+    </div>
+    <div class="container">
+      <div class="listen__content">
+        <h2 class="listen__title">Never Miss an Episode</h2>
+        <p class="listen__sub">Subscribe on your favorite platform and join the New Frontier community.</p>
+        <div class="listen__buttons">
+          <a href="#" class="btn btn--white">Apple Podcasts</a>
+          <a href="#" class="btn btn--white">Spotify</a>
+          <a href="#" class="btn btn--white">YouTube</a>
+        </div>
+        <div class="listen__newsletter">
+          <p>Or get episodes straight to your inbox:</p>
+          <form class="listen__form" onsubmit="return false;">
+            <input type="email" placeholder="your@email.com" required aria-label="Email address">
+            <button type="submit" class="btn btn--primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsorship Section -->
+  <section class="sponsor" id="sponsor">
+    <div class="container">
+      <div class="sponsor__inner">
+        <div class="sponsor__content">
+          <p class="section-tag">Partner With Us</p>
+          <h2 class="section-title">Become a Sponsor</h2>
+          <p class="sponsor__intro">The New Frontier Show connects brands with a passionate, loyal audience rooted in Appalachian culture and the outdoor lifestyle. Our listeners are engaged, community-driven, and value authenticity above all.</p>
+
+          <div class="sponsor__benefits">
+            <div class="sponsor__benefit">
+              <div class="sponsor__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div>
+                <h3>Engaged Audience</h3>
+                <p>25K+ weekly listeners who trust and support the brands we partner with.</p>
+              </div>
+            </div>
+            <div class="sponsor__benefit">
+              <div class="sponsor__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <h3>Multi-Platform Reach</h3>
+                <p>Audio, video, social media clips, and newsletter integration across all channels.</p>
+              </div>
+            </div>
+            <div class="sponsor__benefit">
+              <div class="sponsor__icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+              </div>
+              <div>
+                <h3>Authentic Integration</h3>
+                <p>We weave sponsor messages naturally into our storytelling &mdash; no forced reads.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sponsor__packages">
+            <h3>Sponsorship Tiers</h3>
+            <div class="sponsor__tiers">
+              <div class="tier">
+                <h4>Trailhead</h4>
+                <p>Pre-roll mention + newsletter feature</p>
+              </div>
+              <div class="tier tier--highlight">
+                <h4>Ridgeline</h4>
+                <p>Mid-roll segment + social clips + newsletter</p>
+              </div>
+              <div class="tier">
+                <h4>Summit</h4>
+                <p>Full episode sponsorship + custom content + all platforms</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="mailto:sponsor@thenewfrontiershow.com" class="btn btn--primary">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="assets/images/logo.png" alt="New Frontier" width="160">
+          <p>Appalachia's Brand. Born in Kentucky.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Show</h4>
+            <ul>
+              <li><a href="#episodes">Episodes</a></li>
+              <li><a href="#clips">Clips</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Listen</h4>
+            <ul>
+              <li><a href="#">Apple Podcasts</a></li>
+              <li><a href="#">Spotify</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">TikTok</a></li>
+              <li><a href="mailto:sponsor@thenewfrontiershow.com">Sponsor Inquiries</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 New Frontier Brand. All rights reserved.</p>
+        <a href="https://www.newfrontierbrand.com" target="_blank" rel="noopener">Shop New Frontier</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
