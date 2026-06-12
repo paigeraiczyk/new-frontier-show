@@ -1196,7 +1196,7 @@ ul {
 
   .hero {
     min-height: auto;
-    aspect-ratio: 3/4;
+    aspect-ratio: 2/3;
     align-items: flex-end;
   }
 
@@ -1215,7 +1215,12 @@ ul {
   }
 
   .hero__content {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+
+  .hero__title {
+    font-size: clamp(1.8rem, 8vw, 2.8rem);
   }
 
   .hero__title {
