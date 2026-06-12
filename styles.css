@@ -1252,8 +1252,12 @@ ul {
     gap: 32px;
   }
 
+  .about {
+    padding: 48px 0;
+  }
+
   .about__image {
-    aspect-ratio: 16/9;
+    aspect-ratio: 4/5;
   }
 
   .about__stats {
